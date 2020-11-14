@@ -1,0 +1,98 @@
+/*GLOBAL*/
+* {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: auto auto;
+	background: #fff;
+	
+}
+.container {
+	margin: 5% auto auto;
+	width: 30%;
+	height: 80vh;
+	padding: 0px 4px;
+	box-shadow: 2px 4px 6px 8px #777;
+	background: #f3f3f3;
+	border-radius: 15px;
+}
+.login-header {
+	width: 100%;
+	margin: 0px auto 30px;
+	color: #333;
+	text-align: center;
+	border: 0;
+}
+.login-header > img {
+	margin-top: 0;
+	width: 15%;
+	height: auto; 
+}
+.login-header > h2 {
+	font-size: 22px;
+	padding: 8px;
+}
+
+form {
+	width: 95%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	height: auto;
+}
+.input-group {
+	margin: 20px 0 28px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+	font-size: 18px;
+	color: #555;
+	padding: 4px;
+	font-weight: bold;
+}
+.input-group input {
+	height: 40px;
+	width: 90%;
+	padding: 8px 6px;
+	font-size: 15px;
+	border: 1.5px solid #ccc;
+	border-radius: 5px;
+}
+.btn {
+	padding: 8px 6px;
+	font-size: 18px;
+	color: #fff;
+	border: none; 
+	background: maroon;
+	border-radius: 5px;
+	width: 90%;
+}
+.btn:hover {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px){
+	
+	.container {
+		width: 90%;
+		height: auto;
+		padding-bottom: 8px;
+	}
+	.login-header {
+		margin-bottom: 15px;
+	}
+	form {
+		height: auto;
+	}
+	.input-group {
+	margin: 12px 0 20px;
+	}
+}

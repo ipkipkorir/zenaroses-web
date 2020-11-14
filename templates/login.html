@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<title>Log in</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+	<div class="container">
+		<div class="login-header">
+			<img src="../img/zena-login-logo.jpg">
+			<h2>Login</h2>
+		</div>
+		<form action="/login" method="POST">
+			<div class="input-group">
+				<label>Username:</label>
+				<input type="email" name="username" placeholder="youremail@yourdomain.com">
+			</div>
+			<div class="input-group">
+				<label>Password:</label>
+				<input type="Password" name="password" class="password" placeholder="***********">
+			</div>
+			<div class="input-group">
+				<button type="submit" name="login" class="btn login-btn">Login</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
